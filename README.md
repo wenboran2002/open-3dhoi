@@ -2,7 +2,7 @@
 
 
 
-## [Project Page](https://snuvclab.github.io/) &nbsp;|&nbsp; [Paper](https://arxiv.org/) 
+## [Project Page](https://wenboran2002.github.io/3dhoi/) &nbsp;|&nbsp; [Paper](https://arxiv.org/) 
 
 ![demo.png](./assets/teaser.png)
 
