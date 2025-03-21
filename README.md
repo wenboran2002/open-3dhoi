@@ -2,7 +2,7 @@
 
 
 
-## [Project Page](https://wenboran2002.github.io/3dhoi/) &nbsp;|&nbsp; [Paper](https://arxiv.org/) 
+## [Project Page](https://wenboran2002.github.io/3dhoi/) &nbsp;|&nbsp; [Paper]([https://arxiv.org/](https://arxiv.org/abs/2503.15898)) 
 
 ![demo.png](./assets/teaser.png)
 
