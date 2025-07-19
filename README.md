@@ -41,6 +41,9 @@ conda install cuda -c nvidia/label/cuda-12.1.0
 pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121
 pip install xformers==0.0.22.post7
 
+# Initialize and update git submodules
+git submodule update --init --recursive
+
 pip install submodules/diff-gaussian-rasterization
 pip install submodules/simple-knn
 pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl
