@@ -1,0 +1,3 @@
+[submodule "submodules/multiperson"]
+	path = submodules/multiperson
+	url = https://github.com/JiangWenPL/multiperson.git
