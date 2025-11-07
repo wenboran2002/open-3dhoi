@@ -54,10 +54,22 @@ pip install -r requirements.txt
 ```
 
 ## HOI-Gaussian Optimizer
-### prepare
+### Prepares
+#### Install
 1. Install pytorch3d from https://github.com/facebookresearch/pytorch3d 
 2. download SMPL-X model from https://smpl-x.is.tue.mpg.de/ and put it in /HOIGaussian/data
-### test
+#### Data
+1. camera data:
+get calibration.json and extrinsic.json
+```
+python prepare/camera.py --data_dir ./test_data/sheep
+```
+2. normals data:
+get normals_smplx.npy
+```
+python prepare/normals.py --data_dir ./test_data/sheep
+```
+### Test
 ```bash
 cd /HOIGaussian
 mkdir ./output
