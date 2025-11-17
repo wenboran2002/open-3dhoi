@@ -273,7 +273,7 @@ def training(dataset, opt, pipe, testing_iterations, saving_iterations,
             else:
                 collision_loss = None
 
-            if contact_loss != 0 and contact_loss is None:
+            if contact_loss != 0 and contact_loss is not None:
                 contact_loss.backward(retain_graph=True)
 
             if depth_loss != 0 and depth_loss != None:
