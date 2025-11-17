@@ -99,27 +99,9 @@ class OptimizationParams(ParamGroup):
         self.densify_from_iter = 400 #500
         self.densify_until_iter = 200 #15_000
         self.densify_grad_threshold = 0.0002
-        ## hoi loss:
-        # self.contact=1
-        # self.depth=5
-        # self.ho_dist=100
-        # self.collision=0.01
-        # self.normal=0.01
-
-        # self.contact=0
-        # self.depth=1
-        # self.ho_dist=0.1
-        # self.collision=0.0001
-        # self.normal=0.0
-
-        # self.contact=0.01
-        # self.depth=1
-        # self.ho_dist=0
-        # self.collision=0.0001
-        # self.normal=0.0
-        # self.contact=0.01
         
-        self.contact=0.0
+        
+        self.contact=0.01
         self.depth=1
         self.ho_dist=0
         self.collision=0.00001
@@ -147,3 +129,4 @@ def get_combined_args(parser : ArgumentParser):
         if v != None:
             merged_dict[k] = v
     return Namespace(**merged_dict)
+
